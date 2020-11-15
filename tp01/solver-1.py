@@ -1,7 +1,7 @@
 
 # Comentários gerais:
 # Foi escolhido numpy para ganhar velocidade, porém a melhor opção mesmo seria C++
-# O algoritimo de solução usa de muita aleatoriedade em busca da solução do problema
+# O algoritmo de solução usa de muita aleatoriedade em busca da solução do problema
 # o que fará com que cada execução tenha resultado diferente
 
 
