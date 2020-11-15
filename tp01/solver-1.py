@@ -242,7 +242,7 @@ def RandomSearch(num_items, items, capacity, num_conflicts, conflicts):
 
     # faz uma análise inicial de quantos items em média é necessário para 
     # que se atinja a capacidade da mochila. Isso ajuda a não se perder em construir máscaras
-    # excessivas ou insuficientes. Esse algoritimo é não-deterministico, ou seja, os valores mudam a cada execu
+    # excessivas ou insuficientes. Esse algoritmo é não-deterministico, ou seja, os valores mudam a cada execu
 
     for i in range(1000):
         while capacity_calc < 0 and num > 0:
@@ -260,7 +260,7 @@ def RandomSearch(num_items, items, capacity, num_conflicts, conflicts):
 
         
     # constroi inicialmente mascaras com heuristicas propostas pelo Prof.
-    # como os algoritimos gulosos de preenchimento
+    # como os algoritmos gulosos de preenchimento
     # as máscaras começam com 1 item até o dobro da média de items achados anteriormente que atingem a capacidade da mochila
     for i in range(1, int(media_num + media_num)):
         mask_agenda.append(NewList(0,items,i,num_items,items_weight,items_value))
